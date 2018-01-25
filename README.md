@@ -12,7 +12,7 @@ Syntax highlighted code block
 - Bulleted
 - List
 
-1. [Numbered](#Coursera)
+1. Numbered(#Coursera)
 2. List
 
 **Bold** and _Italic_ and `Code` text
