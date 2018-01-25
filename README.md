@@ -68,7 +68,7 @@ Op de rechter as zie je de absolute Z waarde in meters en op de linker as de hoe
 Ook heb ik deze grafieken gemaakt maar dan met centimeters i.p.v. meters. 
 [Afbeelding](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/Z%20as%20centimeter.PNG) 
 
-[Code] die hier bij hoort(https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Code%20bij%20z%20as)
+[Code](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Code%20bij%20z%20as) die hier bij hoort.
 
 Op deze manier wilde we kijken hoeveel mensen afwijkingen tonen ,bij de abductie beweging, in de z as.
 
