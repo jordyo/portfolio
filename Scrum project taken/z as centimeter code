@@ -1,0 +1,117 @@
+import math 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.integrate import trapz
+
+# import data 
+# HIER INVULLEN WAAR JOUW DATA STAAT
+df = pd.read_csv('cleanedData_ex1.csv')      #('combined_P1-5_E1.csv')    # ('/data/pepper/combined.csv')
+
+for person in range(30,36):
+    print(str(person))
+    # gets data from 1 person
+    one_p = df.loc[df['pNum'] == person]
+    one_e = one_p
+
+    ###################
+    # ROTATE BODY
+    ###################
+    # create empty DataFrame
+    index = np.arange(0)
+    frames = pd.DataFrame(index=index)
+    frames = frames.fillna(0) # with 0s rather than NaNs
+
+    # get min and max frameNum
+    frame_max = int(one_e['frameNum'].max())
+    frame_min = int(one_e['frameNum'].min())
+
+    found = False
+    
+    for i in range(frame_min, frame_max + 1):   
+        frame = one_e.loc[one_e['frameNum'] == i]
+
+        try:
+            x_ver = float(frame.loc[frame['jointName'] == "ShoulderRight", 'x'])
+            z_ver = float(frame.loc[frame['jointName'] == "ShoulderRight", 'z'])
+            
+            if float(frame.loc[frame['jointName'] == "ShoulderRight", 'z']) < float(frame.loc[frame['jointName'] == "ShoulderLeft", 'z']):
+                # rotate clockwise
+                clock = -1
+            else:
+                # rotate - clockwise
+                clock = 1
+
+            # schuiven
+            frame['x_schuif'] = frame.apply (lambda row: x_translation(x_ver, row),axis=1)
+            frame['z_schuif'] = frame.apply (lambda row: z_translation(z_ver, row),axis=1)
+
+            #draaien
+            arc = define_arc(frame)
+            frame['x_rotated'] = frame.apply (lambda row: rotate_body_x(row, arc * clock),axis=1)
+            frame['z_rotated'] = frame.apply (lambda row: rotate_body_z(row, arc * clock),axis=1)
+            frame['arc'] = frame.apply (lambda row: arc,axis=1)
+
+            #samenvoegen
+            # all frames from one person are rotated
+            frames = frames.append(frame)
+            found = True
+        except:
+            found = False
+            print('BUG')
+    
+  
+    if found == True:
+        # create empty DataFrame
+        index = np.arange(0)
+        columns = ['pNum', 'eNum', 'frameNum', 'time', 'arc_right', 'arc_left']
+        arcs = pd.DataFrame(index=index, columns=columns)
+        arcs = arcs.fillna(0) # with 0s rather than NaNs
+
+        frame_max_2 = frames['frameNum'].max()
+        frame_min_2 = frames['frameNum'].min()
+
+        for i in range(frame_min_2, frame_max_2 + 1): 
+            frame = frames.loc[frames['frameNum'] == i]
+            right_arc = arc_elbow(frame, 'r')
+            left_arc = arc_elbow(frame, 'l')
+            time = frame.loc[frame['jointName'] == 'SpineBase', 'time']
+            time = time[time.first_valid_index()]
+            z_elbowright= frame.loc[frame['jointName']=='ElbowRight', 'z_rotated']
+            z_elbowleft= frame.loc[frame['jointName']=='ElbowLeft', 'z_rotated']
+            row = {'pNum': person, 'eNum': person, 'frameNum': i, 'time': time, 'arc_right': right_arc[0,0],
+                   'arc_left': left_arc[0,0],'z_elbowleft':z_elbowleft.values[0], 'z_elbowright': z_elbowright.values[0]}
+            arcs = arcs.append(row, ignore_index=True)
+
+        ##################
+        # NORMALIZE TIME
+        ##################
+        
+        arcs['relativeTime'] = arcs.apply (lambda row: relative_time(row, arcs),axis=1)
+        arcs['normalized'] = arcs.apply (lambda row: normalized_time(row, arcs), axis=1)
+    
+        # area under plot
+        area_right = trapz(arcs['arc_right'], arcs['normalized'])
+        area_left = trapz(arcs['arc_left'], arcs['normalized'])
+        
+        fig = plt.figure()
+        ax1 = fig.add_subplot(1, 1, 1)
+        ax2 = ax1.twinx()
+        
+        ax1.plot(arcs['normalized'], arcs['arc_left'])
+        ax1.plot(arcs['normalized'], arcs['arc_right'])
+        ax2.plot(arcs['normalized'],arcs['z_elbowleft']*100)
+        ax2.plot(arcs['normalized'],arcs['z_elbowright']*100)
+        plt.xlabel('tijd (relatief)')
+        ax1.set_ylabel('graden')
+        ax2.set_ylabel('Centimeter')
+        ax1.set_ylim((0,190))
+        ax2.set_ylim(-15,15)
+        #ax2.set_yticks(np.arange(2,3,0.1))
+        plt.title('Persoon'+str(person)+' Exercise 1' )
+        plt.legend(['Linker arm ', 'Rechter arm '])
+        # HIER INVULLEN WAAR JE GRAFIEKEN OPGESLAGEN MOETEN WORDEN
+        #plt.savefig('/home/13040367/notebooks/Plots/Exercise_1/grafiek_P' + str(person) + '_ex1')    
+        plt.show()
+    else:
+        print('Niet gelukt')
