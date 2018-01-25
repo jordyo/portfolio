@@ -84,8 +84,11 @@ Samen met dhr Tony hebben we gekeken naar hoe we precies met privacy van mensen 
 De presentaties waarbij ik betrokken ben geweest vindt je hier terug.
 
 [Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Extern%20P2%2022%20sept%20.pdf)        22-09-2017
+
 [Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Externe%20presentatie%206%20Okt.pdf)         6-10-2017
+
 [Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Interne%20presentatie%2013%20Okt.pdf)        13-10-2017       
+
 [Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Intern%20P5%2017%20nov.pdf)        17-11-2017
 
 ### Spark
