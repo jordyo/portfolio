@@ -4,9 +4,9 @@
 
 Inhoudsopgave portfolio
 
-```markdown
+
 ### 1. [Kennis verbreden](#Kennis_verbreden)
-```
+
 
 # 1. Kennis verbreden <a name="Kennis_verbreden"></a>
 
