@@ -3,10 +3,14 @@
 ## Inhoudsopgave
 
 Inhoudsopgave portfolio
-## 1. [Datacamp](#Datacamp)
-## 2. [Coursera](#Coursera)
-## 3. [Scrum/project taken](#scrum)
+### 1. [Datacamp](#Datacamp)
+### 2. [Coursera](#Coursera)
+### 3. [Scrum/project taken](#scrum)
 ##### 3.1 [Scrumwise](#scrumwise)
+##### 3.2 [Data Verzamelen](#Data verzamelen)
+##### 3.2
+##### 3.2
+##### 3.2
 
 
 
@@ -33,7 +37,7 @@ Scrumwise hebben we aan het begin gebruikt als project management tool. Ik had g
 We hadden eigenlijk allemaal het idee dat de scrum daily stand ups genoeg was om alles bij te houden.
 
 
-**Data verzamalen** 
+**Data verzamelen** 
 
 Het verzamelen van data waarop analyse kan worden uitgevoerd is de grootste bezigheid waarme ik ben bezig geweest.
 Hierbij heb ik de volgende activiteiten utigevoerd.
