@@ -77,6 +77,14 @@ Uiteraard is er aan het begin van de minor een groot deel literatuur onderzoek g
 
 Samen met dhr Tony hebben we gekeken naar hoe we precies met privacy van mensen moeten omgaan. Hierop is na contact met school jurist een document ['Toestemmingsformulier'](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Toestemmingsformulier.pdf)  opgesteld zodat we zonder consequenties konden gaan opnemen. 
 
+**Presentaties**
+De presentaties waarbij ik betrokken ben geweest vindt je hier terug.
+
+[Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Extern%20P2%2022%20sept%20.pdf)        22-09-2017
+[Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Externe%20presentatie%206%20Okt.pdf)         6-10-2017
+[Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Interne%20presentatie%2013%20Okt.pdf)        13-10-2017       
+[Presentatie](https://github.com/jordyo/portfolio/blob/master/Presentaties/Intern%20P5%2017%20nov.pdf)        17-11-2017
+
 ### Spark
 
 
@@ -104,5 +112,9 @@ Hierna heb ik een excel bestand, waarin persoonnummers staan met daarbij of ze k
 
 De [Code.](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/cluster%2Bmax%2Bhoek%2Bexc%2B3.ipynb)
 
+
+### Calling bullshit
+
+De calling bullshit [opdracht.](https://github.com/jordyo/portfolio/blob/master/Overige/bullshit.pdf)
 
 
