@@ -4,11 +4,10 @@
 
 Inhoudsopgave portfolio
 
+1. [Kennis verbreden](#Kennis_verbreden)
 
-### 1. [Kennis verbreden](#Kennis_verbreden)
 
-
-# 1. Kennis verbreden <a name="Kennis_verbreden"></a>
+1. Kennis verbreden <a name="Kennis_verbreden"></a>
 
 ### Datacamp
 In de datacamp [map](https://github.com/jordyo/portfolio/tree/master/Datacamp) vind je een [screenshot](https://raw.githubusercontent.com/jordyo/portfolio/master/Datacamp/Datacamp.PNG) van de afgeronde cursussen.
