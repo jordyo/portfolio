@@ -31,10 +31,16 @@ Met tony ben ik hier bezig geweest met de privacy van deelnemers aan het onderzo
 
 ![Alt Text](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/sprint%205.png)
 
+Dit spreekt voor zich. Verder ben ik in deze sprint bezig geweest met het regelen voor de opnames in het Zuiderpark Campus.
+
 **Sprint 7**
 
 ![Alt Text](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/sprint%207.PNG)
 
+Dit spreekt voor zich. In deze sprint zijn ook de opnames in het Zuiderpark campus opgenomen.
+
 **Sprint 8**
 
 ![Alt Text](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/sprint%208.png)
+
+In deze sprint heb ik het opname protocol nog gefinetuned. Dit heb ik gedaan a.d.h.v. onduidelijkheden/fouten die er bleken tijdens het opnemen.
