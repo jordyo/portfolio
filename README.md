@@ -7,7 +7,7 @@ Inhoudsopgave portfolio
 ```markdown
 Syntax highlighted code block
 
-###[Datacamp](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Scrum.md)
+[Datacamp](https://github.com/jordyo/portfolio/blob/master/README.md#datacamp)
 
 - Bulleted
 - List
