@@ -38,6 +38,7 @@ De programming assignements van week 6 zijn niet compleet dit omdat ik er niet u
 ### Scrum/project taken
 
 **Data verzamalen** 
+
 Het verzamelen van data waarop analyse kan worden uitgevoerd is de grootste bezigheid waarme ik ben bezig geweest.
 Hierbij heb ik de volgende activiteiten utigevoerd.
 - Opstellen van hogeschoolbrede [mail](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Mail%20voorbeeld%20schouderproblemen.pdf) voor het kunnen opnemen van mensen die schouderklachten hebben & deze ook daadwerkelijk op intranet plaatsen.
@@ -50,13 +51,16 @@ Hierbij heb ik de volgende activiteiten utigevoerd.
 - Verbeteren van [opnameprotocol](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Protocol%20voor%20project%20Pepper.docx.pdf) a.d.h.v. gelezen [literatuur](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Evaluation%20of%20Kinect%20Skeletal%20Tracking%20in%20a%20Virtual%20%250D%250AReality%20Rehabilitation%20System%20for%20Upper%20Limb%20%250D%250AHemiparesis.pdf) .
 
 **Data knippen**
+
 Voordat we automatische konden knippen hebben we de frames van personen handmatig doorgevoerd in een Excel bestand. Dit is in samenwerking gedaan met Boris en Robin. Een screenshot van hoe het er ongeveer uit ziet is [hier](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/Handmatig%20knippen.PNG) terug te vinden.
 Verder is het resultaat van dit knippen is terug te vinden in dit [excel](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/ValidData.xlsx) bestand.
 
 **Excel bestand koppelen aan data**
+
 Het excel bestand uit de vorige oefening heb ik geprobeerd te koppelen aan onze data. Dit is mij echter niet gelukt. Het stuk code is ook niet meer te vinden.
 
-**Grafieken plot**
+**Grafieken plotten**
+
 De volgende grafieken heb ik geplot na aanpassen van de code van Laura die die hoeken plot. De code vindt je [hier](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Code%20bij%20z%20as) terug.
 [Afbeelding persoon 1](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/hoeken%2Bbeweging%20naar%20vorenHoekenZ1_ex1%20SchouderRotatie.png) , [afbeeling persoon 2](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/hoeken%2Bbeweging%20naar%20vorenHoekenZ2_ex1%20SchouderRotatie.png)
 Op de rechter as zie je de absolute Z waarde in meters en op de linker as de hoeken in graden. De y-as representeerd de genormaliseerde tijd.
@@ -66,6 +70,7 @@ Ook heb ik deze grafieken gemaakt maar dan met centimeters i.p.v. meters. [Afbee
 Op deze manier wilde we kijken hoeveel mensen afwijkingen tonen ,bij de abductie beweging, in de z as.
 
 **Literatuuronderzoek**
+
 Uiteraard is er aan het begin van de minor een groot deel literatuur onderzoek gedaan. Hierin heb ik enkele beknopte samenvattingen gemaakt zodat snel terug te vinden is waar men welke informatie kan terug lezen. [Samenvattingen](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/samenvattingen.pdf)
 
 
