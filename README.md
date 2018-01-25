@@ -65,7 +65,9 @@ De volgende grafieken heb ik geplot na aanpassen van de code van Laura die die h
 [Afbeelding persoon 1](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/hoeken%2Bbeweging%20naar%20vorenHoekenZ1_ex1%20SchouderRotatie.png) , [afbeeling persoon 2](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/hoeken%2Bbeweging%20naar%20vorenHoekenZ2_ex1%20SchouderRotatie.png)
 Op de rechter as zie je de absolute Z waarde in meters en op de linker as de hoeken in graden. De y-as representeerd de genormaliseerde tijd.
 
-Ook heb ik deze grafieken gemaakt maar dan met centimeters i.p.v. meters. [Afbeelding](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/Z%20as%20centimeter.PNG) / [Code] (https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Code%20bij%20z%20as)
+Ook heb ik deze grafieken gemaakt maar dan met centimeters i.p.v. meters. 
+[Afbeelding](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/Z%20as%20centimeter.PNG) 
+[Code] (https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Code%20bij%20z%20as)
 
 Op deze manier wilde we kijken hoeveel mensen afwijkingen tonen ,bij de abductie beweging, in de z as.
 
