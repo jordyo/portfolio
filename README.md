@@ -12,7 +12,7 @@ Syntax highlighted code block
 - Bulleted
 - List
 
-1. Numbered(#Coursera)
+### 1. [Kennis verbreden](#Kennis_verbreden)
 2. List
 
 **Bold** and _Italic_ and `Code` text
@@ -22,10 +22,11 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+# 1. Kennis verbreden <a name="Kennis_verbreden"></a>
 ### Datacamp
 In de datacamp [map](https://github.com/jordyo/portfolio/tree/master/Datacamp) vind je een [screenshot](https://raw.githubusercontent.com/jordyo/portfolio/master/Datacamp/Datacamp.PNG) van de afgeronde cursussen.
 
-### <a name="Coursera"></a>Coursera 
+### Coursera <a name="Coursera"></a>
 
 In deze map vind je screenshots van de doorlopen weken van de course 'Machine Learning' van Andrew NG.
 De programming assignements van week 6 zijn niet compleet dit omdat ik er niet uit kwam.
