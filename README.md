@@ -73,6 +73,35 @@ Op deze manier wilde we kijken hoeveel mensen afwijkingen tonen ,bij de abductie
 
 Uiteraard is er aan het begin van de minor een groot deel literatuur onderzoek gedaan. Hierin heb ik enkele beknopte samenvattingen gemaakt zodat snel terug te vinden is waar men welke informatie kan terug lezen. [Samenvattingen](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/samenvattingen.pdf)
 
+**Privacy onderzoek opnemen data**
+
+Samen met dhr Tony hebben we gekeken naar hoe we precies met privacy van mensen moeten omgaan. Hierop is na contact met school jurist een document ['Toestemmingsformulier'](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Toestemmingsformulier.pdf)  opgesteld zodat we zonder consequenties konden gaan opnemen. 
+
+### Spark
+
+
+### Exploratory Data Analysis
+
+- [Opdracht 1](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/1%2BChecking%2BData%2BEdges.ipynb)
+- [Opdracht 2](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/2%2BIdentifying%2Bvariables.ipynb)
+- [Opdracht 3](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/3%2BUnivariate%2BAnalysis.ipynb)
+- [Opdracht 4](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/4%2BBivariate%2BAnalysis.ipynb)
+- [Opdracht 5](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/5%2BMissing%2BValues.ipynb)
+- [Opdracht 6](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/6%2BOutliers.ipynb)
+- [Opdracht 7](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/7%2BData%2BTransformation.ipynb)
+- [Opdracht 8](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/8%2BCreating%2BVariables.ipynb)
+- [Opdracht 9](https://github.com/jordyo/portfolio/blob/master/Exploratory%20Data%20Analysis/9%2BEvaluate.ipynb)
+
+### Scrum opdracht 
+
+In week 1 was er een scrum opdracht. Het bestand kun je [hier](https://github.com/jordyo/portfolio/blob/master/Overige/Portfolio%20kb74.pdf) terug vinden.
+
+### Clustering
+
+Voor ons project hadden we het idee te gaan clusteren. Met deze clusteren hoopte we de mensen met klachten en zonder klachten uit elkaar te halen. In mijn poging tot clusteren heb ik van de 3e oefening de maximale hoek die bereikt wordt tegen elkaar uit gezet. Ik heb dit gekozen omdat aan de hand van gesprekken met Dr. Vermeulen bij oefening 3 de maximale hoek die behaald kan worden een goede indicatie is voor een schouder probleem. [Afbeelding](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Clustering%20poging%201.png)
+
+Hierna heb ik een excel bestand, waarin persoonnummers staan met daarbij of ze klachten hebben ,aan de data gekoppeld. Hierdoor kan ik aangeven welke data punten hebben aangegeven of ze schouder klachten hebben ( een X) of geen schouderklachten. [Afbeelding](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/ClusterJordy.png)
+De [Code.](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/cluster%2Bmax%2Bhoek%2Bexc%2B3.ipynb)
 
 
 
