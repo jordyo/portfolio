@@ -4,10 +4,11 @@
 
 Inhoudsopgave portfolio
 1. [Datacamp](#Datacamp)
-1. [Kennis verbreden](#Kennis_verbreden)
+2. [Coursera](#Coursera)
+3. [Scrum/project taken](#scrum)
+          -[Scrumwise](#scrumwise)
 
 
-1. Kennis verbreden <a name="Kennis_verbreden"></a>
 
 ### 1.Datacamp <a name="Datacamp"></a>
 In de datacamp [map](https://github.com/jordyo/portfolio/tree/master/Datacamp) vind je een [screenshot](https://raw.githubusercontent.com/jordyo/portfolio/master/Datacamp/Datacamp.PNG) van de afgeronde cursussen.
@@ -22,9 +23,9 @@ De programming assignements van week 6 zijn niet compleet dit omdat ik er niet u
 - [week 3.](https://raw.githubusercontent.com/jordyo/portfolio/master/Coursera/week%203.PNG)
 - [week 6.](https://raw.githubusercontent.com/jordyo/portfolio/master/Coursera/week6.PNG)
 
-### Scrum/project taken
+### Scrum/project taken <a name="scrum"></a>
 
-**Scrumwise**
+**Scrumwise** <a name="scrumwise"></a>
 
 [Hier](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Scrum.md) vind je de scrum taken terug.
 
