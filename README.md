@@ -39,6 +39,11 @@ De programming assignements van week 6 zijn niet compleet dit omdat ik er niet u
 
 **Scrumwise**
 
+[Hier](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Scrum.md) vind je de scrum taken terug.
+
+Scrumwise hebben we aan het begin gebruikt als project management tool. Ik had graag gehad dat we ons meer gericht hadden op deze tool.
+We hadden eigenlijk allemaal het idee dat de scrum daily stand ups genoeg was om alles bij te houden.
+
 
 **Data verzamalen** 
 
