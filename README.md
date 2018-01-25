@@ -37,6 +37,9 @@ De programming assignements van week 6 zijn niet compleet dit omdat ik er niet u
 
 ### Scrum/project taken
 
+**Scrumwise**
+
+
 **Data verzamalen** 
 
 Het verzamelen van data waarop analyse kan worden uitgevoerd is de grootste bezigheid waarme ik ben bezig geweest.
