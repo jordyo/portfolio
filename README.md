@@ -101,6 +101,7 @@ In week 1 was er een scrum opdracht. Het bestand kun je [hier](https://github.co
 Voor ons project hadden we het idee te gaan clusteren. Met deze clusteren hoopte we de mensen met klachten en zonder klachten uit elkaar te halen. In mijn poging tot clusteren heb ik van de 3e oefening de maximale hoek die bereikt wordt tegen elkaar uit gezet. Ik heb dit gekozen omdat aan de hand van gesprekken met Dr. Vermeulen bij oefening 3 de maximale hoek die behaald kan worden een goede indicatie is voor een schouder probleem. [Afbeelding](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/Clustering%20poging%201.png)
 
 Hierna heb ik een excel bestand, waarin persoonnummers staan met daarbij of ze klachten hebben ,aan de data gekoppeld. Hierdoor kan ik aangeven welke data punten hebben aangegeven of ze schouder klachten hebben ( een X) of geen schouderklachten. [Afbeelding](https://raw.githubusercontent.com/jordyo/portfolio/master/Scrum%20project%20taken/ClusterJordy.png)
+
 De [Code.](https://github.com/jordyo/portfolio/blob/master/Scrum%20project%20taken/cluster%2Bmax%2Bhoek%2Bexc%2B3.ipynb)
 
 
