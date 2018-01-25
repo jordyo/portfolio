@@ -3,9 +3,9 @@
 ## Inhoudsopgave
 
 Inhoudsopgave portfolio
-1. [Datacamp](#Datacamp)
-2. [Coursera](#Coursera)
-3. [Scrum/project taken](#scrum)
+##1. [Datacamp](#Datacamp)
+##2. [Coursera](#Coursera)
+##3. [Scrum/project taken](#scrum)
 
           -[Scrumwise](#scrumwise)
 
