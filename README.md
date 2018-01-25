@@ -5,24 +5,11 @@
 Inhoudsopgave portfolio
 
 ```markdown
-Syntax highlighted code block
-
-[Datacamp](https://github.com/jordyo/portfolio/blob/master/README.md#datacamp)
-
-- Bulleted
-- List
-
 ### 1. [Kennis verbreden](#Kennis_verbreden)
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
 # 1. Kennis verbreden <a name="Kennis_verbreden"></a>
+
 ### Datacamp
 In de datacamp [map](https://github.com/jordyo/portfolio/tree/master/Datacamp) vind je een [screenshot](https://raw.githubusercontent.com/jordyo/portfolio/master/Datacamp/Datacamp.PNG) van de afgeronde cursussen.
 
