@@ -1,0 +1,105 @@
+import math 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.integrate import trapz
+
+for person in range(1, 3):
+    print(str(person))
+    # gets data from 1 person
+    one_p = df.loc[df['pNum'] == person]
+    one_e = one_p
+
+    ###################
+    # ROTATE BODY
+    ###################
+    # create empty DataFrame
+    index = np.arange(0)
+    frames = pd.DataFrame(index=index)
+    frames = frames.fillna(0) # with 0s rather than NaNs
+
+    # get min and max frameNum
+    frame_max = int(one_e['frameNum'].max())
+    frame_min = int(one_e['frameNum'].min())
+
+    found = False
+    
+    for i in range(frame_min, frame_max + 1):   
+        frame = one_e.loc[one_e['frameNum'] == i]
+
+        try:
+            x_ver = float(frame.loc[frame['jointName'] == "HipRight", 'x'])
+            z_ver = float(frame.loc[frame['jointName'] == "HipRight", 'z'])
+            
+            if float(frame.loc[frame['jointName'] == "HipRight", 'z']) < float(frame.loc[frame['jointName'] == "HipLeft", 'z']):
+                # rotate clockwise
+                clock = -1
+            else:
+                # rotate - clockwise
+                clock = 1
+
+            # schuiven
+            frame['x_schuif'] = frame.apply (lambda row: x_translation(x_ver, row),axis=1)
+            frame['z_schuif'] = frame.apply (lambda row: z_translation(z_ver, row),axis=1)
+
+            #draaien
+            arc = define_arc(frame)
+            frame['x_rotated'] = frame.apply (lambda row: rotate_body_x(row, arc * clock),axis=1)
+            frame['z_rotated'] = frame.apply (lambda row: rotate_body_z(row, arc * clock),axis=1)
+
+            #samenvoegen
+            # all frames from one person are rotated
+            frames = frames.append(frame)
+            found = True
+        except:
+            found = False
+            print('BUG')
+        
+    ###################
+    # CALCULATE ARCS
+    ###################
+    if found == True:
+        # create empty DataFrame
+        index = np.arange(0)
+        columns = ['pNum', 'eNum', 'frameNum', 'time', 'arc_right', 'arc_left']
+        arcs = pd.DataFrame(index=index, columns=columns)
+        arcs = arcs.fillna(0) # with 0s rather than NaNs
+
+        frame_max_2 = frames['frameNum'].max()
+        frame_min_2 = frames['frameNum'].min()
+
+        for i in range(frame_min_2, frame_max_2 + 1): 
+            frame = frames.loc[frames['frameNum'] == i]
+            right_arc = arc_elbow(frame, 'r')
+            left_arc = arc_elbow(frame, 'l')
+            time = frame.loc[frame['jointName'] == 'SpineBase', 'time']
+            time = time[time.first_valid_index()]
+            row = {'pNum': person, 'eNum': person, 'frameNum': i, 'time': time, 'arc_right': right_arc[0,0], 'arc_left': left_arc[0,0]}
+            arcs = arcs.append(row, ignore_index=True)
+
+        ##################
+        # NORMALIZE TIME
+        ##################
+
+        arcs['relativeTime'] = arcs.apply (lambda row: relative_time(row, arcs),axis=1)
+        arcs['normalized'] = arcs.apply (lambda row: normalized_time(row, arcs), axis=1)
+        # area under plot
+        area_right = trapz(arcs['arc_right'], arcs['normalized'])
+        area_left = trapz(arcs['arc_left'], arcs['normalized'])
+        
+        plt.plot(arcs['normalized'], arcs['arc_left'])
+        plt.plot(arcs['normalized'], arcs['arc_right'])
+        plt.plot(arcs['normalized'], df.z)
+        
+        plt.xlabel('tijd (relatief)')
+        plt.ylabel('graden')
+        plt.ylim((0,180))
+        plt.title('Persoon'+str(person)+' Exercise 1' )
+        plt.legend(['Linker arm hoek', 'Rechter arm hoek'],loc= 8)
+        ########
+        plt.plot
+        # HIER INVULLEN WAAR JE GRAFIEKEN OPGESLAGEN MOETEN WORDEN
+        #plt.savefig('/home/13034669/notebooks/Plots/' + 'v1Person' +str(person) + '_ex1')    
+        plt.show()
+    else:
+        print('BUG')
