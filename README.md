@@ -101,6 +101,9 @@ De presentaties waarbij ik betrokken ben geweest vindt je hier terug.
 
 ### 4. Spark <a name="spark"></a>
 
+[Assignment 1](https://github.com/jordyo/portfolio/blob/master/Spark/assignment1.ipynb)
+
+[Assignment 2](https://github.com/jordyo/portfolio/blob/master/Spark/assignment2.ipynb)
 
 ### 5. Exploratory Data Analysis <a name="exp"></a>
 
